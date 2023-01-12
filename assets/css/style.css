@@ -93,7 +93,8 @@ h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-#header h2 span {
+#header h2 span,
+#header span {
   color: #fff;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
@@ -160,6 +161,10 @@ h6 {
 
 #header.header-top .social-links,
 #header.header-top h2 {
+  display: none;
+}
+#header.header-top .below-content,
+#header.header-top p {
   display: none;
 }
 
